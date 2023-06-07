@@ -7,3 +7,16 @@ body {
   padding: 0;
   font-family: Mulish, sans-serif !important;
 }
+/*navbar*/
+.account-btn {
+  background-color: #6b41f6 !important;
+  border-color: #6b41f6 !important;
+  font-weight: bold !important;
+}
+
+.login-btn {
+  background-color: #ffc6fe !important;
+  color: black !important;
+  font-weight: bold !important;
+  border-color: #ffc6fe !important;
+}
