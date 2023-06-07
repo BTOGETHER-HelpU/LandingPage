@@ -278,3 +278,41 @@ body {
 .form-check .form-check-input {
   float: none !important;
 }
+
+/*About us*/
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-btn {
+  background-color: #6b41f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
