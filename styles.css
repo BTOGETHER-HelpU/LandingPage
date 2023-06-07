@@ -164,31 +164,79 @@ body {
 }
 /*Companies*/
 .companies {
-    background-color: #f4f4f4;
-    min-height: 345px;
+  background-color: #f4f4f4;
+  min-height: 345px;
 }
 
 .companies-title {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .company-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
 }
 
 .company-logo {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/*testimonials*/
+.testimonials {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+.card {
+  background-color: #e3e4e3 !important;
+}
+
+.testimonials-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-image {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 100% !important;
+  margin: 20px auto;
+  margin-bottom: 0 !important;
+  object-fit: cover;
+}
+
+.testimonial-date {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+.card-title {
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.star-image {
+  height: 40px;
 }
