@@ -7,3 +7,312 @@ body {
   padding: 0;
   font-family: Mulish, sans-serif !important;
 }
+/*navbar*/
+.account-btn {
+  background-color: #6b41f6 !important;
+  border-color: #6b41f6 !important;
+  font-weight: bold !important;
+}
+
+.login-btn {
+  background-color: #ffc6fe !important;
+  color: black !important;
+  font-weight: bold !important;
+  border-color: #ffc6fe !important;
+}
+/*footer*/
+.footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li img {
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li img {
+  width: 40px;
+  height: 40px;
+}
+
+.no-style-list li {
+  list-style: none;
+}
+
+.no-style-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*HERO*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero .hero-title {
+  margin-bottom: 20px;
+}
+
+.hero .input-icon,
+.hero .search-btn {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-column h1 {
+  font-size: 36px !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+
+.input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-icon input,
+.input-icon select {
+  padding-left: 45px !important;
+  height: 51px;
+  width: 342px;
+  border-radius: 10px;
+  border: 2px solid #1f18fc;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  margin-bottom: 20px;
+}
+
+.input-icon input {
+  background-image: url("./assets/search_icon.png");
+}
+
+.input-icon select {
+  background-image: url("./assets/location_icon.png");
+}
+
+.input-icon input::placeholder,
+.input-icon select::placeholder {
+  color: #999999;
+}
+
+.search-btn {
+  color: #ffffff !important;
+  background-color: #6b41f6 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  width: 152px;
+  height: 46px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 20px auto !important;
+}
+
+.hero-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustes para el título y el campo de entrada */
+.hero .hero-title {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-btn img {
+  max-width: 100%;
+  height: auto;
+}
+
+.app-btn {
+  border: none;
+  background-color: none;
+}
+/*Companies*/
+.companies {
+  background-color: #f4f4f4;
+  min-height: 345px;
+}
+
+.companies-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.company-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.company-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/*testimonials*/
+.testimonials {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+.card {
+  background-color: #e3e4e3 !important;
+}
+
+.testimonials-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-image {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 100% !important;
+  margin: 20px auto;
+  margin-bottom: 0 !important;
+  object-fit: cover;
+}
+
+.testimonial-date {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+.card-title {
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.star-image {
+  height: 40px;
+}
+
+/*suscribe*/
+.subscribe {
+  padding: 20px 0;
+  background-color: #dae0e6;
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.email-input {
+  position: relative;
+  width: 100%;
+}
+
+.email-input .form-control {
+  padding-right: 50px;
+  border-radius: 36px;
+}
+
+.email-input .btn {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  border-radius: 36px;
+  background-color: #6b41f6 !important;
+  border: none;
+}
+
+.email-input .btn img {
+  max-width: 20px;
+}
+
+.form-check .form-check-input {
+  float: none !important;
+}
+
+/*About us*/
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-btn {
+  background-color: #6b41f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

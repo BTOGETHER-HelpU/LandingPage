@@ -12,11 +12,265 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/Logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuestro Servicio</a>
+                        </li>
+                    </ul>
+                    <div class="nav-links">
+                        <button class="account-btn btn btn-primary">Crear cuenta</button>
+                        <button class="login-btn btn btn-secondary">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero d-flex align-items-center text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="hero-title">Busca el trabajo ideal para ti.</h1>
+                        <div class="input-icon">
+                            <input type="text" class="form-control" placeholder="Puesto, empresa o palabra clave">
+                        </div>
+                        <div class="input-icon">
+                            <select class="form-select">
+                                <option value="" selected disabled hidden>Todo el país</option>
+                                <option value="Lima">Lima</option>
+                                <option value="Arequipa">Arequipa</option>
+                                <option value="Cusco">Cusco</option>
+                                <option value="Junin">Junin</option>
+                                <option value="Ancash">Ancash</option>
+                                <option value="Moquegua">Moquegua</option>
+                                <option value="Loreto">Loreto</option>
+                                <option value="San Martin">San Martin</option>
+                                <option value="Ucayali">Ucayali</option>
+                                <option value="Tacna">Tacna</option>
+                            </select>
+                        </div>
+                        <button class="search-btn btn btn-primary">Buscar empleo</button>
+                        <div class="app-buttons">
+                            <button class="app-btn google-play-btn">
+                                <img src="./assets/google_play_logo.png" alt="Obtener en Google Play">
+                            </button>
+                            <button class="app-btn app-store-btn">
+                                <img src="./assets/app_store_logo.png" alt="Descargar en la App Store">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/Hero1.png" alt="Hero Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
 
+    </header>
+    <section class="companies">
+        <div class="container">
+            <h2 class="companies-title text-center">
+                Trabajamos con más de 600 empresas líderes en todo tipo de
+                industrias
+            </h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="company-card">
+                        <img src="./assets/adidas.png" alt="Adidas" class="company-logo">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="company-card">
+                        <img src="./assets/lenovo.png" alt="Lenovo" class="company-logo">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="company-card">
+                        <img src="./assets/mercadolibre.png" alt="Mercado libre" class="company-logo">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="company-card">
+                        <img src="./assets/3m.png" alt="3M" class="company-logo">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="company-card">
+                        <img src="./assets/meta.png" alt="Meta" class="company-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+<section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="about-title">¿Quienes somos?</h2>
+                    <p class="about-text">
+                        El empleo es una de las mayores oportunidades que ayuda a las personas a dejar fluir su
+                        experiencia y creatividad para forjar un gran objetivo en su vida; por lo que, en “Help U”
+                        tratamos que las personas que tengan cierta situación de discapacidad, puedan tener las mismas
+                        derechos y oportunidades laborales igualitarias para que puedan desempeñarse en un rubro en
+                        concreto que sea de su interés y lo más importante, seguro.
+                    </p>
+                    <button class="about-btn">Más info</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./assets/about.png" alt="About Us" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container text-center">
+            <h2 class="testimonials-title">Testimonios</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./assets/profile1.jpeg" alt="Profile 1" class="card-img-top testimonial-image">
+                        <div class="card-body">
+                            <h5 class="card-title">María Lau</h5>
+                            <p class="card-text testimonial-date">04 de abril del 2023</p>
+                            <p class="card-text">Estoy realmente encantada de esta aplicación. Sino fuera por ella,
+                                siento que no hubiera encontrado un trabajo que se ajuste a mi pasion, el cual es
+                                supervisora de planta de producción.</p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./assets/star.png" alt="Star" class="star-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./assets/profile2.png" alt="Profile 2" class="card-img-top testimonial-image">
+                        <div class="card-body">
+                            <h5 class="card-title">Jorge Sanchez</h5>
+                            <p class="card-text testimonial-date">23 de abril del 2023</p>
+                            <p class="card-text">Estoy muy fascinado por la facilidad que tiene esta aplicación de
+                                ayudarme a conseguir mi actual empleo. Me estoy desempeñando como “Mobile Developer” en
+                                una agencia bancaria en Lima y me esta yendo super bien.</p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./assets/star.png" alt="Star" class="star-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="./assets/profile3.jpeg" alt="Profile 3" class="card-img-top testimonial-image">
+                        <div class="card-body">
+                            <h5 class="card-title">Carlos Zapata</h5>
+                            <p class="card-text testimonial-date">27 de abril del 2023</p>
+                            <p class="card-text">Definitivamente se ha convertido en una de mis aplicaciones preferidas
+                                para encontrar empleos. Muy recomendado si estan en busqueda de su primer empleo.</p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./assets/star.png" alt="Star" class="star-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="testimonial-text">Los usuarios son los más importantes para nosotros. Verlos tener éxito en el
+                mundo laboral, es un reconocimiento único que queremos compartir con los demás, para decirles que no
+                están solos. Juntos como familia, lograremos hacer tu sueño realidad.</p>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Suscríbete para novedades</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="email-input">
+                        <input type="text" class="form-control rounded-pill" placeholder="Correo" aria-label="Correo">
+                        <button class="btn btn-primary rounded-pill send-btn"><img src="./assets/send_icon.png"
+                                alt="Send Icon"></button>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" id="termsCheck">
+                        <label class="form-check-label" for="termsCheck">He leído y aceptado todos los términos y
+                            condiciones</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Nuestra Compañía</h5>
+                    <p>
+                        Compañia remota encargada de ayudar a promover la inclusión laboral de personas en situación de
+                        discapacidad para que puedan encontrar el trabajo ideal que desean desempeñarse.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Soporte</h5>
+                    <ul class="no-style-list">
+                        <li><a href="#">Contacto y Soporte</a></li>
+                        <li><a href="#">F.A.Q</a></li>
+                        <li><a href="#">Foro</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contáctanos</h5>
+                    <ul>
+                        <li>
+                            <img src="assets/icon_location.png" alt="Location Icon" style="width: 15px; height: 15px;">
+                            Av. Caminos del Inca 2146, Surco, Lima, Perú
+                        </li>
+                        <li>
+                            <img src="assets/icon_phone.png" alt="Phone Icon" style="width: 15px; height: 15px;"> +51
+                            992 890 111
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociales</h5>
+                    <ul class="social-icons">
+                        <li><img src="assets/twitter.png" alt="Twitter Icon"></li>
+                        <li><img src="assets/facebook.png" alt="Facebook Icon"></li>
+                        <li><img src="assets/instagram.png" alt="Instagram Icon"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright-row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; Copyright 2023 - HelpU</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
 </body>
+
 
 </html>
